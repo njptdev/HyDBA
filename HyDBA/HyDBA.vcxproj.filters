@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Asm">
+      <UniqueIdentifier>{7d87c4f5-542d-4467-8359-df5663b7ec1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\HyperPlatform">
+      <UniqueIdentifier>{9cae7262-2b18-42ac-9d50-73647922b37d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ept.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="vmm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\global_object.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\hotplug_callback.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\kernel_stl.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\log.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\performance.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\power_callback.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperPlatform\util.cpp">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="int.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rewrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HyperPlatform\common.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\global_object.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\hotplug_callback.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\log.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\perf_counter.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\performance.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\power_callback.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperPlatform\util_page_constants.h">
+      <Filter>Source Files\HyperPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="asm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ept.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ia32_type.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdint.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vmm.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="int.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Asm\x86.asm">
+      <Filter>Source Files\Asm</Filter>
+    </MASM>
+    <MASM Include="Asm\x86_idt.asm">
+      <Filter>Source Files\Asm</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
